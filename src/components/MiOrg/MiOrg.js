@@ -14,7 +14,7 @@ const MiOrg = (props) => {
   return (
     <section className="orgSection">
         <h3 className='title'>Mi organización</h3>
-        <img src="/img/add.png" alt="add" onClick={props.cambiarMostrar}></img>
+        <img height={74} width={74} src="/img/add.png" alt="add" onClick={props.cambiarMostrar}></img>
     </section>
   )
 }
